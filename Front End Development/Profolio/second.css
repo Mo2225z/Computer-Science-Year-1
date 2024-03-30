@@ -1,0 +1,87 @@
+/*Layout for the about page*/
+ .container2 {
+     display: grid;
+     height: 100vh;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 0.1fr auto auto 0.1fr;
+     grid-template-areas: "nav nav" "section1 main" "section2 main" "footer footer";
+     grid-gap: 0.2rem;
+     font-weight: 500;
+     font-size: 2.2vh;
+     color: whitesmoke;
+     text-align: center;
+}
+/*layout for nav*/
+ .nav {
+     grid-area: nav;
+}
+/* layout for main*/
+ .main {
+     grid-area: main;
+     border-radius: var(--main-radius);
+     padding-top: var(--main-padding);
+     background: #282828;
+}
+/*layout for section1*/
+ .section1 {
+     grid-area: section1;
+     border-radius: var(--main-radius);
+     padding-top: var(--main-padding);
+     background: #282828;
+}
+/*layout for section2*/
+ .section2 {
+     grid-area: section2;
+     border-radius: var(--main-radius);
+     padding-top: var(--main-padding);
+     background: #282828;
+}
+/*layout for footer*/
+ .footer {
+     grid-area: footer;
+     border-radius: var(--main-radius);
+     padding-top: var(--main-padding);
+     background: #282828;
+}
+/*Color scheme for website when the mode switcher button is clicked*/
+ .dark .main, .dark .section1, .dark .section2, .dark .footer, .dark li a, .dark .nav-item{
+     background: grey;
+     color: black;
+}
+/*css for nav item*/
+ .nav-item {
+     font-size: 2vh;
+}
+/*css for afro image*/
+ .afro {
+     width: auto;
+     height: 150px;
+}
+/*Grid inside section1*/
+ .section1 ul {
+     display: grid;
+     grid-template: auto/repeat(3,auto);
+     grid-gap: 1rem;
+     margin-right: 5rem;
+}
+/*Grid inside section2*/
+ .section2 ul {
+     display: grid;
+     grid-template: auto/repeat(2,auto);
+     grid-gap: 1rem;
+     margin-right: 0.5rem;
+}
+/*Mobile layout for the website using Grid*/
+ @media only screen and (max-width: 912px) {
+     .container2 {
+         grid-template-columns: 1fr;
+         grid-template-rows: auto;
+         grid-template-areas: "nav" "main" "section1" "section1" "section2" "footer";
+    }
+    /*Grid inside section1 changes when below 912px*/
+     .section1 ul {
+         grid-template: 1fr/1fr;
+         margin-right: 2rem;
+    }
+}
+ 

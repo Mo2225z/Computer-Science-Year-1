@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<!--Setting lang for the page-->
+<html lang="en">
+   <head>
+      <!--       character set-->
+      <meta charset="utf-8">
+      <!--       title for page-->
+      <title>Contact</title>
+      <meta name="description" content="My Website">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--       linking stylesheet-->
+      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="second.css">
+      <link rel="stylesheet" href="third.css">
+   </head>
+   <body>
+      <div class ="container3">
+         <nav id = "nav">
+            <ul class ="nav-list">
+               <li class = "nav-item">
+                  <header> My <span> Profolio </span></header>
+               </li>
+               <li class = "nav-item"> <a href="index.html"> Home </a></li>
+               <li class = "nav-item"> <a href="about.html"> About </a></li>
+               <li><button onclick="modeSwitch()" class = "nav-item" id = "mode"> Mode </button></li>
+            </ul>
+         </nav>
+         <main>
+            <h1 class ="header">Contact</h1>
+            <p> “If I had asked people what they wanted, they would have said faster horses. ”
+               - Henry Ford 
+            </p>
+            <hr>
+            <div>
+               <ul>
+                  <li><a href = "https://twitter.com"> <span class = "icon"></span>Twitter</a></li>
+                  <li> <a href = "https://facebook.com"> <span class = "icon2"></span>Facebook</a></li>
+                  <li> <a href = "https://uk.linkedin.com"> <span class = "icon3"></span>Linkedin</a></li>
+               </ul>
+            </div>
+            <hr>
+            <div class ="image-container"> <img alt="Coding gif" src="Images/Code.gif" class = "image1"> 
+               <img id = "image" onclick = "rotatePictures()" alt="Picture of waves" src="Images/Sleep.jpg" class = "image2">
+               <img alt="Gif of a man typing on a computer" src="Images/Programmer.gif" class = "image2">
+            </div>
+         </main>
+         <footer>
+            <p>Made by Mohamed Abdalla</p>
+         </footer>
+      </div>
+      <!--      I put the script tag here because the elements have to load in order for the script to work-->
+      <script src ="Scripts/backgroundChanger.js"></script>
+   </body>
+</html>
+

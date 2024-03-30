@@ -1,0 +1,93 @@
+/*Layout for the contact page*/
+ .container3 {
+     display: grid;
+     height: 100vh;
+     grid-template-columns: 1fr;
+     grid-template-rows: 0.1fr auto 0.1fr;
+     grid-template-areas: "nav" "main" "footer";
+     grid-gap: 0.2rem;
+     font-weight: 500;
+     font-size: 2.2vh;
+     color: whitesmoke;
+     text-align: center;
+}
+/*css for nav*/
+ nav {
+     grid-area: nav;
+}
+/*css for main*/
+ main {
+     grid-area: main;
+     border-radius: var(--main-radius);
+     padding-top: var(--main-padding);
+     background: #282828;
+}
+/*css for footer*/
+ footer {
+     grid-area: footer;
+     border-radius: var(--main-radius);
+     padding-top: var(--main-padding);
+     background: #282828;
+}
+/*colour scheme for website when the mode button is clicked*/
+ .dark main, .dark footer {
+     background: grey;
+     color: black;
+}
+/*css for headers*/
+ .header {
+     text-decoration: underline;
+}
+/*css for hr elements */
+ hr {
+     width: 50%;
+     border-color: #727878;
+     opacity: 0.2;
+     margin-top: 40px;
+     margin-bottom: 40px;
+}
+/*css for div inside main */
+ main div {
+     display: flex;
+     justify-content: center;
+}
+/*css for icon images*/
+ .icon {
+     float: left;
+     background: url(Images/Twitter.png);
+     height: 20px;
+     width: 20px;
+}
+ .icon2 {
+     float: left;
+     background: url(Images/Facebook.png);
+     height: 20px;
+     width: 20px;
+}
+ .icon3 {
+     float: left;
+     background: url(Images/Linked.png);
+     height: 20px;
+     width: 20px;
+}
+/*css for div container for images*/
+ .image-container {
+     display: flex;
+     justify-content: space-between;
+}
+/*css for images*/
+ .image1, .image2, .image3 {
+     height: 150px;
+     width: 250px;
+     margin: 10px 10px;
+     border-radius: 6px;
+}
+/* css to change flex direction on smaller screens*/
+ @media only screen and (max-width: 912px) {
+     .image-container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+    }
+}
+ 

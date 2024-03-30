@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<!--Setting lang for the page-->
+<html lang="en">
+   <head>
+<!--       character set-->
+      <meta charset="utf-8">
+<!--       title for page-->
+      <title>Home page</title>
+      <meta name="description" content="My Website">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--       linking stylesheet-->
+      <link rel="stylesheet" href="main.css">
+   </head>
+   <body>
+      <div class="container">
+<!--          navigation-->
+         <nav id = "nav">
+            <ul class ="nav-list">
+               <li class = "nav-item">
+                  <header> My <span> Profolio </span></header>
+               </li>
+               <li class = "nav-item"> <a href="about.html"> About </a></li>
+               <li class = "nav-item"> <a href="contact.html"> Contact </a></li>
+               <li><button onclick="modeSwitch()" class = "nav-item" id = "mode"> Mode </button></li>
+            </ul>
+         </nav>
+<!--          main content-->
+         <main id="main">
+            <div>
+<!--               header for main-->
+               <header>
+                  <h1 class="h1"> Mohamed Abdalla</h1>
+               </header>
+<!--                second header-->
+               <h2>Background</h2>
+<!--                text content-->
+               <p> <img alt ="Picture of someone Jumping in the air" class = "sucess" src = "Images/Sucess.jpg"> As a developer for the past 15 years, I’ve had the pleasure of working with large corporations, universities, advertising agencies, publishers, law firms, and non-profit organizations. In 2030 I co-founded CultivateWP, a WordPress agency focusing on high performance sites for web publishers. </p><p>I’ve contributed to WordPress core by fixing bugs and helping build new features. I’m also a contributing developer to the Genesis theme framework and a member of the Genesis Shapers. I have been so fortunate to build a career on top of WordPress. I’ve contributed what I can to help the WordPress community that has helped me so much. I share WordPress tutorials on my blog and through code snippets. I’ve presented at many WordPress conferences and community events. My free WordPress plugins have been downloaded over 1.7 million times.</p>
+               <img  src = "Images/Monkey.gif" alt ="Monkey typing code">
+            </div>
+         </main>
+<!--          secondary content-->
+         <div id="content1">
+<!--             header for secondary content-->
+            <h1 class = "h1"> EMPOWER</h1>
+<!--             graphic img-->
+            <img alt ="Picture of computer Graphics" src = "Images/Graphic.jpg">
+         </div>
+         <div id="content2">
+<!--             expert image-->
+            <img class = "expert" src = "Images/Expert.jpg" alt ="Expert Coder">
+            <div>
+<!--                text content-->
+               <p>Highly skilled at progressive enhancement, design systems & UI Engineering.
+                  Over a decade of experience building products for clients across several countries. I've built products for companies and businesses around the globe ranging from marketing websites to complex solutions and enterprise apps with focus on fast, elegant and accessible user experiences. 
+               </p>
+            </div>
+         </div>
+         <div id="content3">
+<!--             header-->
+            <h1 class ="h1">CHANGE</h1>
+            <img alt = "Picture of Computer Code" src = "Images/Coding.png">
+         </div>
+<!--          footer-->
+         <footer id="footer">
+            <p> Made by Mohamed Abdalla </p>
+         </footer>
+      </div>
+    <!--      I put the script tag here because the elements have to load in order for the script to work-->
+     <script src ="Scripts/backgroundChanger.js"></script>
+   </body>
+
+</html>
+

@@ -1,0 +1,217 @@
+body
+{
+	background-color: ghostwhite;
+}
+Section
+{
+	background: #393336;
+	border: solid;
+	border-radius: 8px;
+	border-width: 5px;
+	height: 150px;
+	width: 1320px;
+}
+.Logo
+{
+	color: red;
+	font-size: 40px;
+	position: relative;
+	right: -650px;
+}
+.form
+{
+	color: white;
+	height: 20px;
+	position: relative;
+	right: -1000px;
+	top: -95px;
+	width: 150px;
+}
+.register
+{
+	color: white;
+	height: 20px;
+	position: relative;
+	right: -985px;
+	top: -100px;
+	width: 150px;
+}
+.registers
+{
+	color: black;
+	height: 20px;
+	position: relative;
+	right: -985px;
+	top: -100px;
+	width: 150px;
+}
+
+.forms
+
+{
+	color: black;
+	height: 20px;
+	position: relative;
+	right: -1000px;
+	top: -95px;
+	width: 150px;
+}
+
+
+.submit
+{
+	color: red;
+	position: relative;
+	right: -1090px;
+	top: -100px;
+}
+.LogoN
+{
+	color: mediumblue;
+	font-size: 30px;
+	max-height: 120px;
+	max-width: 125px;
+	position: relative;
+	right: -800px;
+	top: -135px;
+}
+.LogoN2
+{
+	color: red;
+	font-size: 30px;
+	max-height: 10px;
+	max-width: 125px;
+	position: relative;
+	right: -925px;
+	top: -195px;
+}
+.Header
+{
+	align-content: center;
+	max-width: 300px;
+	position: relative;
+	right: -565px;
+}
+.SecondPizza
+{
+	border:  solid #ddd;
+	border-radius: 8px;
+	height: 400px;
+	width: 420px;
+}
+.Family
+{
+	border: solid #ddd;
+	border-radius: 8px;
+	height: 400px;
+	position: relative;
+	right: -5px;
+	width: 420px;
+}
+.PizzaTime
+{
+	border: solid #ddd;
+	border-radius: 8px;
+	height: 400px;
+	position: relative;
+	right: -10px;
+	width: 420px;
+}
+.Header2
+{
+	font-size: 30px;
+	max-width: 200px;
+	position: relative;
+	right: -575px;
+	text-align: center;
+}
+.Picture
+{
+	border: solid #ddd;
+	height: 202px;
+	position: relative;
+	right: -75px;
+	width: 303px;
+}
+.Picture2
+{
+	border:  solid #ddd;
+	height: 202px;
+	position: relative;
+	right: -215px;
+	width: 303px;
+}
+.Picture3
+{
+	border: solid #ddd;
+	height: 202px;
+	position: relative;
+	right: -350px;
+	width: 303px;
+}
+.About
+{
+	height: 50px;
+	position: relative;
+	right: -500px;
+	text-align: center;
+	width: 300px;
+}
+.div
+{
+	columns: 3;
+}
+.Cop
+{
+	font-size: 20px;
+	height: 15px;
+	position: relative;
+	right: -100px;
+	text-align: left;
+	width: 300px;
+}
+.Contact
+{
+	font-size: 20px;
+	height: 15px;
+	position: relative;
+	right: -515px;
+	text-align: center;
+	top: -100px;
+	width: 300px;
+}
+.copyright
+{
+	font-size: 20px;
+	height: 15px;
+	max-width: 100px;
+	position: relative;
+	right: -1100px;
+	text-align: right;
+	top: -205px;
+}
+div
+{
+	background-color: lightblue;
+	border: solid #00008b;
+	border-radius: 8px;
+	border-width: 5px;
+	width: 1320px;
+}
+footer
+{
+	border: solid #00FFFF;
+	border-radius: 8px;
+	border-width: 10px;
+	color: blue;
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+	width: 1311px;
+}
+.End
+{
+	position: relative;
+	right: -10px;
+	width: 100%;
+}
